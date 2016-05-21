@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{81570C17-40DB-49F1-AE95-538AE467F650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F50EE0B-DBA6-48E4-A294-F603BDDC750E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleAppWithTool", "src\SampleAppWithTool\SampleAppWithTool.xproj", "{214CB8F2-3D6B-45F6-ABD0-6E8387D838D8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "dotnet-tool", "src\dotnet-tool\dotnet-tool.xproj", "{B1DDE19D-08E3-4DE9-AEEB-D18F8B07BD4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{214CB8F2-3D6B-45F6-ABD0-6E8387D838D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214CB8F2-3D6B-45F6-ABD0-6E8387D838D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214CB8F2-3D6B-45F6-ABD0-6E8387D838D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214CB8F2-3D6B-45F6-ABD0-6E8387D838D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1DDE19D-08E3-4DE9-AEEB-D18F8B07BD4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1DDE19D-08E3-4DE9-AEEB-D18F8B07BD4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1DDE19D-08E3-4DE9-AEEB-D18F8B07BD4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1DDE19D-08E3-4DE9-AEEB-D18F8B07BD4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{214CB8F2-3D6B-45F6-ABD0-6E8387D838D8} = {81570C17-40DB-49F1-AE95-538AE467F650}
+		{B1DDE19D-08E3-4DE9-AEEB-D18F8B07BD4C} = {81570C17-40DB-49F1-AE95-538AE467F650}
+	EndGlobalSection
+EndGlobal
